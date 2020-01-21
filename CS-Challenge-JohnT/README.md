@@ -7,24 +7,22 @@ If anything is unclear please let me know.
 
 -John Tjonasan-
 
-Business/Flow Changes:
+<h1>Business/Flow Changes:</h1>
 
-1.The original flow was a bit confusing so I decided to implement a menu system. 
-Each menu item provides the user a clear idea of what selection they are making.
+1.The original flow was a bit confusing so I decided to implement a menu system. Each menu item provides the user a clear idea of what selection they are making.
 
 2.I also changed the flow to model what I feel the underlying data structure would be; namely many jokes belonging to one category.
 
-2a.Because of this I  felt that the ability to swap a name in place of Chuck Norris, 
-as well as the ability request up to 9 jokes fit better within the getJokes flow as opposed to the category listing flow.
+2a.Because of this I  felt that the ability to swap a name in place of Chuck Norris, as well as the ability request up to 9 jokes fit better within the getJokes flow as opposed to the category listing flow.
 
 3.I provided the option to sub in a name. As a default if there is no name provided Chuck Norris would be used
 
-4. I also felt that providing a list of categories on their own wasn't very useful, so I created a get jokes by category menu item.
+4.I also felt that providing a list of categories on their own wasn't very useful, so I created a get jokes by category menu item.
 
 
-Technical Changes:
+<h1>Technical Changes:</h1>
 
-Program.cs
+<b>Program.cs</b>
 
 1.Used the Console class for writing.
 
@@ -36,7 +34,7 @@ Program.cs
 
 5. Simplified name replacement
 
-JsonFeed.cs
+<b>JsonFeed.cs</b>
 
 1.Single instance of HttpClient
 
@@ -48,7 +46,7 @@ JsonFeed.cs
 
 4.Simplified class to two calls
 
-Future improvements:
+<h1>Future improvements:</h1>
 
-More error handling
-Remove duplicate jokes being returned
+1.More error handling
+2.Remove duplicate jokes being returned
