@@ -94,6 +94,7 @@ namespace ConsoleApp1
 
           try{
             List<String> jokes = JsonFeed.GetRandomJokesByCategory(catName,numOfJokes).Result;
+            //Print out list of jokes. If the user provided a substitue name, replace Chuck norris with it 
             foreach(string joke in jokes){
               Console.WriteLine(!string.IsNullOrEmpty(name)?joke.Replace("Chuck Norris", name) : joke);
             }
