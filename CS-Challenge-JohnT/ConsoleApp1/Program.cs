@@ -46,6 +46,9 @@ namespace ConsoleApp1
          Console.Clear();
        }
 
+       ///<summary>
+       /// Create a display menu to allow user to select flow
+       ///</summary>
         static public int DisplayJokeMenu()
         {
           Console.WriteLine("Welcome to the Chuck Norris Joke Generator");
@@ -67,6 +70,9 @@ namespace ConsoleApp1
         }
 
 
+        ///<summary>
+        /// Get Jokes Flow
+        ///</summary>
         private static void GetJokes(string catName)
         {
           Console.WriteLine("Please enter a name or leave blank to invoke using Chuck Norris\n");
@@ -76,14 +82,15 @@ namespace ConsoleApp1
           int numOfJokes = 1;
           try{
             numOfJokes = Convert.ToInt32(Console.ReadLine());
+            if(numOfJokes > 9){
+              numOfJokes = 1;
+              throw new Exception();
+            }
           }
           catch(Exception e){
             Console.WriteLine("Invalid Entry. Chuck says you get one joke\n");
           }
-          if(numOfJokes > 9){
-            Console.WriteLine("Invalid Entry. Chuck says you get one joke\n");
-            numOfJokes = 1;
-          }
+
 
           try{
             List<String> jokes = JsonFeed.GetRandomJokesByCategory(catName,numOfJokes).Result;
@@ -105,6 +112,9 @@ namespace ConsoleApp1
 
 
         }
+        ///<summary>
+        /// Get Jokes By Category Flow, will call get jokes flow
+        ///</summary>
         private static void GetJokesByCategory()
         {
           Dictionary<int, string> categories = new Dictionary<int, string>();
@@ -115,6 +125,7 @@ namespace ConsoleApp1
             catch(Exception e){
               Console.WriteLine("Error retrieving joke categories please try again later");
             }
+            //Present user with a menu to allow them to select Joke Category
             Console.WriteLine("Please select a category");
             foreach(KeyValuePair<int, string> cat in categories){
               Console.WriteLine("{0} {1}", cat.Key, cat.Value);
@@ -123,6 +134,7 @@ namespace ConsoleApp1
             try{
               var result = Console.ReadLine();
               int catVal = Convert.ToInt32(result);
+              //Use the text value of the category name key they provided as required by endpoint
               string catName = categories[catVal];
               GetJokes(catName);
             }

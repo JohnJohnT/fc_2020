@@ -28,3 +28,13 @@ c:\Users\John\Desktop\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\Jok
 c:\Users\John\Desktop\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.AssemblyInfo.cs
 c:\Users\John\Desktop\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.dll
 c:\Users\John\Desktop\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.pdb
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\bin\Debug\netcoreapp2.1\JokeGenerator.deps.json
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\bin\Debug\netcoreapp2.1\JokeGenerator.runtimeconfig.json
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\bin\Debug\netcoreapp2.1\JokeGenerator.runtimeconfig.dev.json
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\bin\Debug\netcoreapp2.1\JokeGenerator.dll
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\bin\Debug\netcoreapp2.1\JokeGenerator.pdb
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.csprojAssemblyReference.cache
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.AssemblyInfoInputs.cache
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.AssemblyInfo.cs
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.dll
+c:\fc_2020\CS-Challenge-JohnT\ConsoleApp1\obj\Debug\netcoreapp2.1\JokeGenerator.pdb

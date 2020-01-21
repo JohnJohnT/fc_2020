@@ -17,6 +17,11 @@ namespace ConsoleApp1
         }
 
 
+        ///<summary>
+        /// Get Jokes By Categroy Call
+        /// <parameter> categoryName </parameter> if a category name is provided append paramater to URL
+        /// <parameter> numberOfJokes </parameter> denotes how many jokes the user requested
+        ///</summary>
     public static async Task<List<String>> GetRandomJokesByCategory(string categoryName,int numberOfJokes){
 
       StringBuilder sb = new StringBuilder();
@@ -37,7 +42,10 @@ namespace ConsoleApp1
       return jokes;
 
     }
-
+    ///<summary>
+    /// Get Category Listing
+    /// Returns a dictionary of generated int keys and string values of the categaory names
+    ///</summary>
 		public static async Task<Dictionary<int, string>> GetCategories()
 		{
       var categories = JsonConvert.DeserializeObject<List<string>>(httpClient.GetStringAsync("categories").Result);

@@ -735,11 +735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\John\\Desktop\\CS-Challenge-JohnT\\ConsoleApp1\\JokeGenerator.csproj",
+      "projectUniqueName": "c:\\fc_2020\\CS-Challenge-JohnT\\ConsoleApp1\\JokeGenerator.csproj",
       "projectName": "JokeGenerator",
-      "projectPath": "c:\\Users\\John\\Desktop\\CS-Challenge-JohnT\\ConsoleApp1\\JokeGenerator.csproj",
+      "projectPath": "c:\\fc_2020\\CS-Challenge-JohnT\\ConsoleApp1\\JokeGenerator.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\John\\Desktop\\CS-Challenge-JohnT\\ConsoleApp1\\obj\\",
+      "outputPath": "c:\\fc_2020\\CS-Challenge-JohnT\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
