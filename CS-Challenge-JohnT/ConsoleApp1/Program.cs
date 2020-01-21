@@ -138,6 +138,9 @@ namespace ConsoleApp1
               string catName = categories[catVal];
               GetJokes(catName);
             }
+            catch(KeyNotFoundException knfe){
+              Console.WriteLine("Invalid category selected.");
+            }
             catch (Exception e){
               Console.WriteLine("Error retriving jokes. Please try again later or contact Chuck directly.");
               clearApp();
